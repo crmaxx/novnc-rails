@@ -674,6 +674,8 @@ var RFB;
                     }
                 }
 
+                this._rfb_auth_scheme = 1;
+
                 if (this._rfb_auth_scheme === 0) {
                     return this._fail("Unsupported security types: " + types);
                 }
